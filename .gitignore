@@ -1,0 +1,5 @@
+data/
+new_res/data/
+og_model/data/
+res_512/data/
+__pycache__

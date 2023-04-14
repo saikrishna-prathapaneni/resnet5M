@@ -87,6 +87,8 @@ class ResNetF(nn.Module):
         return x
 
 
-# model = ResNetF()
-# random_matrix = torch.rand(1, 3, 224, 224)
-# print(model.forward(random_matrix).shape)
+model = ResNetF()
+model=model.cuda()
+random_matrix = torch.rand(1, 3, 224, 224).cuda()
+print(model.forward(random_matrix).shape)
+summary(model,(3,224,224))

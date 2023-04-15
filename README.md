@@ -40,3 +40,10 @@ pip install -r requirements.txt
 ```
 
 Now you should be able to run all the jupyter notebooks inside the "./training" folder.
+
+<br>
+
+### Results
+
+![alt text](model_loss.png "Loss v/s Epochs") \
+This graph shows the model validation loss v/s epoch. Each model is trained for 200 epoch and from the data on the graph, we can observe that our best performing model res_512_d has the lowest loss on the test data compared to other models.

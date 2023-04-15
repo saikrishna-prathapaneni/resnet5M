@@ -9,6 +9,8 @@ In this repository, we tried to build a ResNet model which has under 5M trainabl
 ![alt text](model_summary.png "Title")
 From our experimentation, res_512_d is our best performing model with LeakyRelu activation, Cosine Annealing learning rate scheduler and SGD optimiser and dropout layer.
 
+For more information about the model architectures or other techniques which we have used, please refer to the "Project Report.pdf" file
+
 <br>
 
 ### Code Files
@@ -20,7 +22,9 @@ All the python notebooks which we used for training can be found in the "./train
 > The folder "./training/chaiging_activations" contains the different activation functions which we experimented with over the res_512_d model \
 > The folder "./training/changing_optimisers" contains the different optimisers which we experimented with over the res_512_d model. <br>
 
-> Each folder contains the following files \
+<br>
+Each folder contains the following files
+
 > test_acc_history.txt -> accuracy history of the model over test data \
 > test_loss_history.txt -> loss history of the model over test data \
 > train_acc_history.txt -> accuracy history of the model over train data \
